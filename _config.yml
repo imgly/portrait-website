@@ -1,10 +1,6 @@
 # Site settings
 title: Portrait by img.ly
-email:
 description: Stylized Selfies & Artworks
-
-baseurl: "portrait-website" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
-url: "https://imgly.github.io" # the base hostname & protocol for your site
 
 google_analytics: "-"
 addthis_id: "-"
