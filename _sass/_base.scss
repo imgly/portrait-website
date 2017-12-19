@@ -292,6 +292,9 @@ section {
       left: 0;
     }
   }
+  &.newsletter {
+    padding: 45px 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -375,6 +378,11 @@ footer {
     color: black;
     background-color: $theme-primary;
     border-color: $theme-primary;
+  }
+
+  &--black {
+    color: black;
+    border-color: black;
   }
 }
 

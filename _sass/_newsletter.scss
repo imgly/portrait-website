@@ -1,0 +1,52 @@
+.newsletter {
+	h3 {
+		margin-top: 0;
+		display: block;
+	}
+
+	input {
+		outline: none;
+	}
+
+	.email {
+		border: none;
+		border-bottom: 1px solid #bababa;
+		height: 28px;
+		padding: 7px 6px 6px 6px;
+		font-size: 16px;
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	.button {
+		display: inline;	
+	}
+
+	&_content {	
+		padding-top: 13px;
+		height: 60px;
+		margin: 0 auto;
+		width: 70%;
+
+		&_field {
+			margin-top: 7px;
+			width: 63%;
+			float: left;
+		}
+
+		&_button {
+			width: 30%;
+			float: right;
+			padding: 10px 8px;
+			background: black;
+			color: white;
+			border-color: white;
+			border-radius: 100px;
+
+
+			&:hover {
+				background: #1b6ffc;
+			}
+		}
+	}
+}
